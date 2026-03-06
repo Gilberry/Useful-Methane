@@ -36,7 +36,7 @@ data:extend({{
 }, {
     type = "technology",
     name = "bioflux-productivity-1",
-    icon = "__space-age__/graphics/technology/bioflux.png",
+    icons = util.technology_icon_constant_recipe_productivity("__space-age__/graphics/technology/bioflux.png"),
     icon_size = 256,
     effects = {{
         type = "change-recipe-productivity",
@@ -54,7 +54,7 @@ data:extend({{
 }, {
     type = "technology",
     name = "bioflux-productivity-2",
-    icon = "__space-age__/graphics/technology/bioflux.png",
+    icons = util.technology_icon_constant_recipe_productivity("__space-age__/graphics/technology/bioflux.png"),
     icon_size = 256,
     effects = {{
         type = "change-recipe-productivity",
